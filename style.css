@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+h1 {
+    margin-top: 50px;
+}
+body{
+   text-align: center;
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    background-color: #FFF8E8; 
+}
+.gallery {
+display: flex;
+justify-content: center;
+flex-wrap:wrap;
+margin: 10px
+}
+.gallery img{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+}
+@media (max-width:600px) {
+    .gallery img{
+        width: calc(100% - 8px);
+    }
+}
